@@ -1,0 +1,112 @@
+[
+	{
+		"id": 1,
+		"code": "00001",
+		"title": "product-1",
+		"description": "desc-1",
+		"price": 1000,
+		"thumbnail": "../path1",
+		"stock": 10,
+		"status": "True",
+		"category": "categoriaUno"
+	},
+	{
+		"id": 2,
+		"code": "00002",
+		"title": "product-2",
+		"description": "desc-2",
+		"price": 1200,
+		"thumbnail": "../path2",
+		"stock": 15,
+		"status": "True",
+		"category": "categoriaDos"
+	},
+	{
+		"id": 3,
+		"code": "00003",
+		"title": "product-3",
+		"description": "desc-3",
+		"price": 1500,
+		"thumbnail": "../path3",
+		"stock": 20,
+		"status": "True",
+		"category": "categoriaTres"
+	},
+	{
+		"id": 4,
+		"code": "00004",
+		"title": "product-4",
+		"description": "desc-4",
+		"price": 1800,
+		"thumbnail": "../path4",
+		"stock": 18,
+		"status": "True",
+		"category": "categoriaCuatro"
+	},
+	{
+		"id": 5,
+		"code": "00005",
+		"title": "product-5",
+		"description": "desc-5",
+		"price": 1200,
+		"thumbnail": "../path5",
+		"stock": 12,
+		"status": "True",
+		"category": "categoriaCinco"
+	},
+	{
+		"id": 6,
+		"code": "00006",
+		"title": "product-6",
+		"description": "desc-6",
+		"price": 2000,
+		"thumbnail": "../path6",
+		"stock": 30,
+		"status": "True",
+		"category": "categoriaSeis"
+	},
+	{
+		"id": 7,
+		"code": "00007",
+		"title": "product-7",
+		"description": "desc-7",
+		"price": 1600,
+		"thumbnail": "../path7",
+		"stock": 16,
+		"status": "True",
+		"category": "categoriaSiete"
+	},
+	{
+		"id": 8,
+		"code": "00008",
+		"title": "product-8",
+		"description": "desc-8",
+		"price": 1900,
+		"thumbnail": "../path8",
+		"stock": 19,
+		"status": "True",
+		"category": "categoriaOcho"
+	},
+	{
+		"id": 9,
+		"code": "00009",
+		"title": "product-9",
+		"description": "desc-9",
+		"price": 1400,
+		"thumbnail": "../path9",
+		"stock": 14,
+		"status": "True",
+		"category": "categoriaNueve"
+	},
+	{
+		"id": 10,
+		"code": "00010",
+		"title": "product-10",
+		"description": "desc-10",
+		"price": 2200,
+		"thumbnail": "../path10",
+		"stock": 22,
+		"status": "True",
+		"category": "categoriaDiez"
+	}
+]
