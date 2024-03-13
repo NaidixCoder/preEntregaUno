@@ -42,7 +42,12 @@ router.get('/:pid', async (req, res) => {
 //  Agregar nuevo producto: 
 router.post("/", uploader.single('file'), async (req, res) => {
     const newProduct = req.body;
-    newProduct.thumbnail = req.file.path;
+    
+    // Verificar si se proporcionó un archivo adjunto
+    let thumbnailPath = null;
+    if (req.file) {
+        thumbnailPath = req.file.path;
+    }
     
     try {
         const result = await pm.addProduct(newProduct);
@@ -62,7 +67,6 @@ router.post("/", uploader.single('file'), async (req, res) => {
         });
     }
 });
-
 
 // Actualizar por ID
 router.put("/:pid", async (req, res) => {

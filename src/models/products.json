@@ -108,5 +108,97 @@
 		"stock": 22,
 		"status": "True",
 		"category": "categoriaDiez"
+	},
+	{
+		"id": 11,
+		"code": "newCode-02",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": "C:\\Users\\matii\\Desktop\\LEARNING\\1- CODERHOUSE\\4-Backend\\Entregas\\primerEntrega\\src\\public\\img\\WhatsApp Image 2024-03-11 at 8.13.43 PM.jpeg",
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 12,
+		"code": "newCode-04",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 13,
+		"code": "newCode-05",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 14,
+		"code": "newCode-06",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 15,
+		"code": "newCode-051",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 16,
+		"code": "newCode-05111",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 17,
+		"code": "newCode-015111",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
+	},
+	{
+		"id": 18,
+		"code": "newCode-01",
+		"title": "Nuevo",
+		"description": "Descripcion del codigo nuevo",
+		"price": "1500",
+		"thumbnail": [
+			"asdad",
+			"asdasdad",
+			"asdasdb"
+		],
+		"stock": "15",
+		"status": "true",
+		"category": "categoria nueva"
 	}
 ]

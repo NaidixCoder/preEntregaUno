@@ -18,7 +18,7 @@ export default class ProductManager {
         }
     }
     
-    async addProduct({title, description, code, price, status, stock, category, thumbnail}) {
+    async addProduct({title, description, code, price, status = true, stock, category, thumbnail}) {
         const validationError = this.validateInputs(title, description, code, price, status, stock, category);
         if (validationError) {
             return { error: validationError };
@@ -36,7 +36,7 @@ export default class ProductManager {
             title: title,
             description: description,
             price: price,
-            thumbnail: thumbnail,
+            thumbnail: thumbnail || [],
             stock: stock,
             status: status,
             category: category,
